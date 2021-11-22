@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 20%;
+    padding: 1%;
+    margin: 10px auto;
+    border-radius: 15px;
+}
