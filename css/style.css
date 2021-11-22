@@ -8,4 +8,15 @@
     padding: 1%;
     margin: 10px auto;
     border-radius: 15px;
+    text-align: center;
+    background-color: blue;
+}
+#container ul {
+    margin: 10px;
+}
+#container ul  li{
+    background-color: aquamarine;
+    padding: 2%;
+    list-style: none;
+    text-align: center;
 }

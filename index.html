@@ -12,13 +12,14 @@
         <h1>
             Lista E-Mail
         </h1>
-        <ul>
-            <li>
-                Email da generare
+        <ul v-if="email.length == 10">
+            <li v-for="newEmail in email">
+                {{newEmail}},
             </li>
         </ul>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
     <script src="js/script.js"></script>
 </body>
